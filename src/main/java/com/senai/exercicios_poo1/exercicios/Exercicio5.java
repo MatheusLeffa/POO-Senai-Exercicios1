@@ -15,7 +15,7 @@ public class Exercicio5 implements Exercicio {
 
         String string = resultado.toString();
         int metadeString = string.length() / 2;
-        String stringResultado = string.substring(0,metadeString) + "\n" + string.substring(metadeString);
+        String stringResultado = string.substring(0, metadeString) + "\n" + string.substring(metadeString);
 
         JOptionPane.showMessageDialog(null, stringResultado);
     }

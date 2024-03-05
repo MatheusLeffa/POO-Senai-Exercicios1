@@ -1,14 +1,13 @@
 package com.senai.exercicios_poo1.exercicios;
 
 import javax.swing.*;
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 //Leia do teclado um valor 'x', e após calcule a raiz quadrada do número
-public class Exercicio7 implements Exercicio{
+public class Exercicio7 implements Exercicio {
 
-    public static void execute(){
+    public static void execute() {
         double inputNumero = Double.parseDouble(JOptionPane.showInputDialog("Digite um numero: "));
         double raizQuadrada = Math.sqrt(inputNumero);
 

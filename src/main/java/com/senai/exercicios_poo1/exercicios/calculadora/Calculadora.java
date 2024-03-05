@@ -57,7 +57,7 @@ public class Calculadora implements ICalculadora {
     @Override
     public float dividir(float x, float y) {
         try {
-            if (y == 0){
+            if (y == 0) {
                 throw new RuntimeException("Não é possivel dividir por 0.");
             }
             return x / y;

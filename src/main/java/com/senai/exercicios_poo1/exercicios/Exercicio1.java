@@ -12,12 +12,12 @@ public class Exercicio1 implements Exercicio {
         try {
             inputNameAndIdade();
             showResultado();
-        }catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Valor digitado inválido!\n"+ e.getMessage());
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Valor digitado inválido!\n" + e.getMessage());
         }
     }
 
-    private static void inputNameAndIdade(){
+    private static void inputNameAndIdade() {
         nome = JOptionPane.showInputDialog("Qual seu nome?");
         idade = Integer.parseInt(JOptionPane.showInputDialog("Qual sua idade?"));
     }

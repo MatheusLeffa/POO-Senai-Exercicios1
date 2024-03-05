@@ -7,6 +7,7 @@ package com.senai.exercicios_poo1.GUI;
 import com.senai.exercicios_poo1.exercicios.*;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author mathe
@@ -43,7 +44,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Aula 1");
 
-        jLabelExerciciosAula1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabelExerciciosAula1.setFont(new java.awt.Font("Segoe UI", Font.BOLD, 18)); // NOI18N
         jLabelExerciciosAula1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelExerciciosAula1.setText("Exercicios Aula 1");
 
