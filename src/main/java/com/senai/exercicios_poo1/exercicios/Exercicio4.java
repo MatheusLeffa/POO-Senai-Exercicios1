@@ -9,22 +9,19 @@ public class Exercicio4 implements Exercicio {
 
     public static void execute() {
         try {
-            String alunoNome = JOptionPane.showInputDialog("Qual o nome do aluno?");
-            double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota 1:"));
-            double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota 2:"));
-            double nota3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota 3:"));
-            double media = (nota1 + nota2 + nota3) / 3;
-            NumberFormat numberFormat = new DecimalFormat("#0.00");
-            String mediaFormated = numberFormat.format(media);
+            float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 1:"));
+            float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 2:"));
+            float nota3 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 3:"));
+            float media = (nota1 + nota2 + nota3) / 3;
 
-            JOptionPane.showMessageDialog(null, "Nota do " + alunoNome + " = " + mediaFormated);
+            JOptionPane.showMessageDialog(null, "Média do aluno = " + media);
 
             if (media >= 7.0) {
-                JOptionPane.showMessageDialog(null, alunoNome + " está APROVADO!");
+                JOptionPane.showMessageDialog(null, "Aluno APROVADO!");
             } else if (media < 5.0) {
-                JOptionPane.showMessageDialog(null, alunoNome + " está REPROVADO!");
+                JOptionPane.showMessageDialog(null, "Aluno REPROVADO!");
             } else {
-                JOptionPane.showMessageDialog(null, alunoNome + " está de RECUPERAÇÃO!");
+                JOptionPane.showMessageDialog(null, "Aluno RECUPERAÇÃO!");
             }
 
         } catch (Exception e) {
