@@ -175,31 +175,39 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnExercicio1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio1ActionPerformed
-        Exercicio1.execute();
+        Exercicio1 ex1 = new Exercicio1();
+        ex1.execute();
     }//GEN-LAST:event_btnExercicio1ActionPerformed
 
     private void btnExercicio2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio2ActionPerformed
-        Exercicio2.execute();
+        Exercicio2 ex2 = new Exercicio2();
+        ex2.execute();
     }//GEN-LAST:event_btnExercicio2ActionPerformed
 
     private void btnExercicio3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio3ActionPerformed
-        Exercicio3.execute();
+        Exercicio3 ex3 = new Exercicio3();
+        ex3.execute();
     }//GEN-LAST:event_btnExercicio3ActionPerformed
 
     private void btnExercicio4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio4ActionPerformed
-        Exercicio4.execute();
+        Exercicio4 ex4 = new Exercicio4();
+        ex4.execute();
     }//GEN-LAST:event_btnExercicio4ActionPerformed
 
     private void btnExercicio5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio5ActionPerformed
-        Exercicio5.execute();
+        Exercicio5 ex5 = new Exercicio5();
+        ex5.execute();
+
     }//GEN-LAST:event_btnExercicio5ActionPerformed
 
     private void btnExercicio6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio6ActionPerformed
-        Exercicio6.execute();
+        Exercicio6 ex6 = new Exercicio6();
+        ex6.execute();
     }//GEN-LAST:event_btnExercicio6ActionPerformed
 
     private void btnExercicio7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio7ActionPerformed
-        Exercicio7.execute();
+        Exercicio7 ex7 = new Exercicio7();
+        ex7.execute();
     }//GEN-LAST:event_btnExercicio7ActionPerformed
 
     private void btnExercicio8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExercicio8ActionPerformed

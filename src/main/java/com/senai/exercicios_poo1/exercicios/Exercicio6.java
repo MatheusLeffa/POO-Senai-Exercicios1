@@ -6,7 +6,7 @@ import java.util.List;
 
 // De 1 a 100 quais são pares e ímpares
 public class Exercicio6 implements Exercicio {
-    public static void execute() {
+    public void execute() {
         List<Integer> impares = new ArrayList<>();
         List<Integer> pares = new ArrayList<>();
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 //Imprima os numero de 1 a 100 na tela
 public class Exercicio5 implements Exercicio {
-    public static void execute() {
+    public void execute() {
         List<Integer> resultado = new ArrayList<>();
 
         for (int x = 1; x <= 100; x++) {

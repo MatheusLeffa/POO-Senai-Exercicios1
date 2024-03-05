@@ -5,7 +5,7 @@ import javax.swing.*;
 //Verifique qual o maior valor digitado
 public class Exercicio3 implements Exercicio {
 
-    public static void execute() {
+    public void execute() {
         try {
             int maiorValor;
             int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número:"));

@@ -7,7 +7,7 @@ import java.text.NumberFormat;
 //Leia 3 notas fornecidas de um aluno, e calcule a média da nota do aluno
 public class Exercicio4 implements Exercicio {
 
-    public static void execute() {
+    public void execute() {
         try {
             float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 1:"));
             float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 2:"));
