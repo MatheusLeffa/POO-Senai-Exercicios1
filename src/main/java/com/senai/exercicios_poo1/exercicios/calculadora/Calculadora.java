@@ -23,49 +23,25 @@ public class Calculadora implements ICalculadora {
 
     @Override
     public float somar(float x, float y) {
-        try {
-            return x + y;
-
-        } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, "Erro:\n" + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-            throw new RuntimeException(ex);
-        }
+        return x + y;
     }
 
     @Override
     public float subtrair(float x, float y) {
-        try {
-            return x - y;
-
-        } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, "Erro:\n" + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-            throw new RuntimeException(ex);
-        }
+        return x - y;
     }
 
     @Override
     public float multiplicar(float x, float y) {
-        try {
-            return x * y;
-
-        } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, "Erro:\n" + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-            throw new RuntimeException(ex);
-        }
+        return x * y;
     }
 
     @Override
-    public float dividir(float x, float y) {
-        try {
-            if (y == 0) {
-                throw new RuntimeException("Não é possivel dividir por 0.");
-            }
-            return x / y;
-
-        } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, "Erro:\n" + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
-            throw new RuntimeException(ex);
+    public float dividir(float x, float y) throws RuntimeException {
+        if (y == 0) {
+            throw new RuntimeException("Não é possivel dividir por 0.");
         }
+        return x / y;
     }
 
     @Override
