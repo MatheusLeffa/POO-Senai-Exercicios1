@@ -11,4 +11,6 @@ Contém implementação dos seguintes algorítimos:
 * Leia do teclado um valor 'x', e após calcule a raiz quadrada do número
 * **Calculadora**
 
-[![GUI-Java](https://github.com/MatheusLeffa/Jogo-da-Velha/blob/main/img/Captura%20de%20tela.PNG?raw=true)]
+![GUI-Principal](https://github.com/MatheusLeffa/POO-Senai-Exercicios1/blob/main/img/GUI-Principal.png?raw=true)
+
+![GUI-Calculadora](https://github.com/MatheusLeffa/POO-Senai-Exercicios1/blob/main/img/GUI-Calculadora.png?raw=true)
