@@ -6,6 +6,8 @@ import java.util.List;
 
 //Imprima os numero de 1 a 100 na tela
 public class Exercicio5 implements Exercicio {
+
+    @Override
     public void execute() {
         List<Integer> resultado = new ArrayList<>();
 
@@ -18,5 +20,10 @@ public class Exercicio5 implements Exercicio {
         String stringResultado = string.substring(0, metadeString) + "\n" + string.substring(metadeString);
 
         JOptionPane.showMessageDialog(null, stringResultado);
+    }
+
+    @Override
+    public void showResultado() {
+
     }
 }

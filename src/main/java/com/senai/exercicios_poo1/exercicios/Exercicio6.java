@@ -6,6 +6,8 @@ import java.util.List;
 
 // De 1 a 100 quais são pares e ímpares
 public class Exercicio6 implements Exercicio {
+
+    @Override
     public void execute() {
         List<Integer> impares = new ArrayList<>();
         List<Integer> pares = new ArrayList<>();
@@ -18,5 +20,10 @@ public class Exercicio6 implements Exercicio {
             }
         }
         JOptionPane.showMessageDialog(null, "Impares: " + impares + "\nPares: " + pares);
+    }
+
+    @Override
+    public void showResultado() {
+
     }
 }

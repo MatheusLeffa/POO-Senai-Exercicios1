@@ -8,6 +8,7 @@ public class Exercicio1 implements Exercicio {
     private String nome;
     private Integer idade;
 
+    @Override
     public void execute() {
         try {
             inputNameAndIdade();
@@ -22,7 +23,7 @@ public class Exercicio1 implements Exercicio {
         idade = Integer.parseInt(JOptionPane.showInputDialog("Qual sua idade?"));
     }
 
-    private void showResultado() {
-        JOptionPane.showMessageDialog(null, "Nome = " + nome + "\nIdade = " + idade);
+    public void showResultado() {l,
+                JOptionPane.showMessageDialog(nul"Nome = " + nome + "\nIdade = " + idade);
     }
 }
