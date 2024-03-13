@@ -8,21 +8,21 @@ public class Exercicio3 implements Exercicio {
 
     private int maiorValor;
     private int valor1;
-        private int valor2;
+    private int valor2;
 
-        @Override
-        public void execute() {
-            try {
-                inputValores();
-                maiorValor = setMaiorValor();
-                showResultado();
-            } catch (Exception e) {
-                JOptionPane.showMessageDialog(null, "Valor digitado inválido!\n" + e.getMessage());
-n            }
-}
-.showI
-private void inputValores() {
-        valor1 = Integer.parseInt(JOptionPaneputDialog("Digite um número:"));
+    @Override
+    public void execute() {
+        try {
+            inputValores();
+            maiorValor = setMaiorValor();
+            showResultado();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Valor digitado inválido!\n" + e.getMessage());
+        }
+    }
+
+    private void inputValores() {
+        valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número:"));
         valor2 = Integer.parseInt(JOptionPane.showInputDialog("Digite outro número:"));
     }
 

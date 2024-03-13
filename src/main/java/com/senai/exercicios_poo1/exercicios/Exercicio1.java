@@ -23,7 +23,7 @@ public class Exercicio1 implements Exercicio {
         idade = Integer.parseInt(JOptionPane.showInputDialog("Qual sua idade?"));
     }
 
-    public void showResultado() {l,
-                JOptionPane.showMessageDialog(nul"Nome = " + nome + "\nIdade = " + idade);
+    public void showResultado() {
+        JOptionPane.showMessageDialog(null, "Nome = " + nome + "\nIdade = " + idade);
     }
 }
